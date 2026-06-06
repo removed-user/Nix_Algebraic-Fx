@@ -1,10 +1,9 @@
 <p align="right">
-  <a href="https://github.com/sponsors/vic"><img src="https://img.shields.io/badge/sponsor-vic-white?logo=githubsponsors&logoColor=white&labelColor=%23FF0000" alt="Sponsor Vic"/>
-  </a>
-  <a href="https://github.com/vic/nfx/releases"><img src="https://img.shields.io/github/v/release/vic/nfx?style=plastic&logo=github&color=purple"/></a>
-  <a href="LICENSE"> <img src="https://img.shields.io/github/license/vic/nfx" alt="License"/> </a>
-  <a href="https://github.com/vic/nfx/actions">
-  <img src="https://github.com/vic/nfx/actions/workflows/test.yml/badge.svg" alt="CI Status"/> </a>
+  
+  <a href="https://github.com/removed-user/Nix_Algebraic-Fx/releases"><img src="https://img.shields.io/github/v/release/vic/nfx?style=plastic&logo=github&color=purple"/></a>
+  <a href="LICENSE"> <img src="https://img.shields.io/github/license/removed-user/Nix_Algebraic-Fx" alt="License"/> </a>
+  <a href="https://github.com/removed-user/Nix_Algebraic-Fx/actions">
+  <img src="https://github.com/removed-user/Nix_Algebraic-Fx/actions/workflows/test.yml/badge.svg" alt="CI Status"/> </a>
 </p>
 
 # nfx - An Algebraic Effects System with Handlers for Nix
@@ -15,7 +14,7 @@
 
 ## Architecture
 
-Built from four [kernel primitives](https://github.com/vic/nfx/blob/main/nix/kernel.nix) in ~30 lines:
+Built from four [kernel primitives](https://github.com/removed-user/Nix_Algebraic-Fx/blob/main/nix/kernel.nix) in ~30 lines:
 
 1. **immediate** - Effect with resolved value
 2. **pending** - Effect awaiting context  
