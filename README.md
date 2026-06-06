@@ -1,16 +1,19 @@
 <p align="right">
-  
-  <a href="https://github.com/removed-user/Nix_Algebraic-Fx/releases"><img src="https://img.shields.io/github/v/release/vic/nfx?style=plastic&logo=github&color=purple"/></a>
   <a href="LICENSE"> <img src="https://img.shields.io/github/license/removed-user/Nix_Algebraic-Fx" alt="License"/> </a>
   <a href="https://github.com/removed-user/Nix_Algebraic-Fx/actions">
   <img src="https://github.com/removed-user/Nix_Algebraic-Fx/actions/workflows/test.yml/badge.svg" alt="CI Status"/> </a>
 </p>
 
-# nfx - An Algebraic Effects System with Handlers for Nix
+# An Algebraic Effects System with Handlers for Nix
+
+## Forked from, and **NOT affiliated** with `https://github.com/vic/nfx`
+### I'm studying this repo to understand programming concepts, and FP implementations here.
+
+> If the repository lists a "trademark limitation," it means you cannot use the original project's **name, branding, or logos** to market your new repository or software.
+
+> Credit where its due, Keeping the sponsor line, 
 
 > nfx is made for you with Love by @vic. If you like my work, consider [sponsoring](https://github.com/sponsors/vic)
-
-***See our [Documentation](https://vic.github.io/nfx) website***
 
 ## Architecture
 
