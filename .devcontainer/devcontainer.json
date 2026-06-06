@@ -1,0 +1,25 @@
+{
+  "name": "Lix Compiler Test Environment",
+  "image": "ghcr.io/lix-project/lix:latest",
+  
+  // Customizes the runtime terminal environment for experimental commands
+  "containerEnv": {
+    "NIX_CONFIG": "extra-experimental-features = nix-command flakes"
+  },
+
+  // Installs essential extensions inside the remote VS Code window
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "jnoortheen.nix-ide" // Provides Nix language server protocol and formatting
+      ],
+      "settings": {
+        "nix.enableLanguageServer": true,
+        "nix.serverPath": "nil"
+      }
+    }
+  },
+
+  // Ensures your user permissions inside the container can interact with the host system files
+  "remoteUser": "root"
+}
