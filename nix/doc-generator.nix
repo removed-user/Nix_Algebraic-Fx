@@ -6,7 +6,7 @@
   fileList,
 }:
 let
-  githubBase = "https://github.com/vic/nfx/blob/main";
+  githubBase = "https://github.com/removed-user/Nix_Algebraic-Fx/blob/main";
 
   # Helper to extract documentation from mk results
   extractDocs =
